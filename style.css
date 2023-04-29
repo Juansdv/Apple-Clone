@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+    margin: 0px auto;
+} 
+
+
+/*    NAV Section      */
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #444444;
+    padding: 5px;
+    align-items: center;
+}
+
+.nav-container2{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-container2 div{
+    padding: 20px;
+}
+
+
+/* Seccion Iphone 14 */
+
+.iphone14-section{
+    background-image: url(https://www.apple.com/co/home/heroes/iphone-14-yellow-avail/images/hero_iphone14_yellow__eun20sn4imi6_large.jpg);
+    background-size: cover;
+    position: relative;
+    height: 60vmax;
+    background-position: center center;
+}
+
+.iphone14-container{
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left:0;
+    right: 0;
+    margin: auto;
+    
+}
+
+/* Seccion iPhone 14 Pro */
+
+.iphone14-pro-section{
+    background-image: url(https://www.apple.com/co/home/heroes/iphone-14-pro/images/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+    background-size: cover;
+    position: relative;
+    height: 60vmax;
+    background-position: center center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.iphone14-pro-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15%;
+    text-align: center;
+}
+
+/* Watch Section */
+
+.watch-section{
+    background-image: url(https://www.apple.com/co/home/heroes/apple-watch-series-8/images/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg);
+    background-size: cover;
+    position: relative;
+    height: 60vmax;
+    background-position: center center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.watch-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    text-align: center;
+}
+
+
+/* Vista de Productos*/
+
+.products-overview-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.wwdc23-container{
+    background-image: url(https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_large.jpg);
+    height: 80vmax;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+    background-position: center center;
+}
+
+.wwdc23-content{
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70%;
+}
+
+.ipad-container{
+    background-image: url(https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
+    object-fit: cover;
+    height: 80vmax;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.ipad-content{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 13%;
+}
+
+.macbook-pro-container{
+    background-image: url(https://www.apple.com/v/home/az/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg);
+    object-fit: cover;
+    height: 80vmax;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.mackbook-pro-content{
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 10%;
+}
+
+.airpods-pro-container{
+    background-image: url(https://www.apple.com/v/home/az/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_small_2x.jpg);
+    object-fit: cover;
+    height: 80vmax;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.airpods-pro-content{
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 20%;
+}
+
+.watch-pro-container{
+    background-image: url(https://www.apple.com/co/home/promos/apple-watch-ultra/images/promo_apple_watch_ultra__gnsqulvdc4a6_small_2x.jpg);
+    object-fit: cover;
+    height: 80vmax;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.watch-pro-content{
+    color: black;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 20%;
+}
+
+.fitness-container{
+    background-image: url(https://www.apple.com/co/home/promos/fitness-plus-iphone/images/promo-apple-fitness-plus-iphone__bzeal882mv7m_small_2x.jpg);
+    object-fit: cover;
+    height: 80vmax;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.fitness-content{
+    color: black;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 15%;
+}
+
+
+/* Media Querys */
+
+@media screen and (min-width: 735px){
+
+    .products-overview-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+
+}
+    
