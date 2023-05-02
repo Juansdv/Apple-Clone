@@ -27,6 +27,10 @@
     align-items: center;
 }
 
+.nav-container span{
+    margin-left: 2vmin;
+}
+
 .nav-container2{
     display: flex;
     flex-direction: row;
@@ -197,7 +201,7 @@
     font-size: 4.5vmin;
     left: 0;
     right: 0;
-    top: 20%;
+    top: 10%;
 }
 
             /* Watch Pro */
@@ -218,7 +222,7 @@
     font-size: 4.5vmin;
     left: 0;
     right: 0;
-    top: 20%;
+    top: 15%;
 }
 
 .watch-pro-content p:nth-child(2){
@@ -247,6 +251,81 @@
     top: 15%;
 }
 
+
+            /*    Swipe Slider Section       */
+
+.swipe-slider-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+            /* Footer */
+
+.footer-container{
+    margin: 15px auto;
+    background-color: #F5F5F7;
+    color: #6E6E73;
+    font-size: 2.2vmin;
+}
+
+.footer-content{
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 15px;
+
+}
+
+.about-us{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 70%;
+    margin: 0px auto;
+
+}
+
+.abu1 * , .abu2 *, .abu3 *, .abu4 *, .abu5 *, .abu6 *, .abu7 *, .abu8 *{
+
+    list-style: none;
+    text-decoration: none;
+    color: #6E6E73;
+}
+
+
+
+.abu2{
+    grid-column: 1/2;
+    margin-top: 20px;
+}
+
+.abu3{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.abu4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.abu5{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.abu6{
+    grid-column: 4/3;
+    grid-row: 2/3;
+}
+
+.abu7{
+    grid-column: 4/5;
+    grid-row: 1/2;
+
+}
 
 /* Media Querys */
 
