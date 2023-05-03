@@ -25,6 +25,7 @@
     background-color: #444444;
     padding: 5px;
     align-items: center;
+    font-size: 2.7vmin;
 }
 
 .nav-content{
@@ -74,7 +75,7 @@
 /* Seccion iPhone 14 Pro */
 
 .iphone14-pro-section{
-    background-image: url(https://www.apple.com/co/home/heroes/iphone-14-pro/images/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+    background-image: url(https://www.apple.com/kr/home/az/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall.jpg);
     background-size: cover;
     position: relative;
     height: 115vmin;
@@ -90,6 +91,7 @@
     right: 0;
     top: 15%;
     text-align: center;
+
 }
 
 /* Watch Section */
@@ -350,6 +352,18 @@
 
 }
 
+
+.about-us-button-movil{
+    width: 90%;
+    margin: 10px auto;
+    display: none;
+}
+.about-us-button-movil p{
+    margin: 10px;
+}
+
+
+
 .footer-copyright-movil div{
     display: flex;
     flex-direction: row;
@@ -372,6 +386,28 @@
 
 
 /* Media Querys */
+
+@media screen and (min-width: 1069px){
+
+    .iphone14-pro-content{
+        display: block;
+    }
+
+    .iphone14-pro-content-movil{
+        display: none;
+    }
+
+    .iphone14-pro-section{
+        background-image: url(https://www.apple.com/co/home/heroes/iphone-14-pro/images/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+        background-size: cover;
+        position: relative;
+        height: 115vmin;
+        background-position: center center;
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+}
 
 @media screen and (min-width: 834px){
 
