@@ -362,6 +362,10 @@
     margin: 10px;
 }
 
+.efectoBoton{
+    display: block;
+}
+
 
 
 .footer-copyright-movil div{
@@ -422,6 +426,7 @@
 
     .about-us-movile{
         display: none;
+        cursor: pointer;
     }
 
     .about-us-desktop{
@@ -438,6 +443,8 @@
     .nav-container2 div{
         padding: 20px 5px;
     }
+
+
 
 }
 
