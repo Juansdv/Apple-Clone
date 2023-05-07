@@ -367,6 +367,13 @@
 }
 
 
+.span-boton{
+    transform: rotate(45deg);
+}
+
+.about-us-movile > button > span{
+    font-size: 3.5vmin;
+}
 
 .footer-copyright-movil div{
     display: flex;
